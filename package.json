@@ -1,0 +1,20 @@
+{
+  "name": "alba-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for building Alba projects.",
+  "author": "Louis-André Labadie",
+  "license": "WTFPL",
+  "scripts": {
+    "build": "webpack --config ./config/webpack.config.prod.js",
+    "start": "webpack serve --config ./config/webpack.config.dev.js",
+    "clipboard": "webpack --config ./config/webpack.config.prod.js && pbcopy < ./dist/bundle.js"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.4.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  }
+}

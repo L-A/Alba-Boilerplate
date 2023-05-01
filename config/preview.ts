@@ -86,7 +86,7 @@ if (!alba) {
     params: {
       tokenId: 0,
       seed,
-      width: window.innerWidth || 1000,
+      width: window.innerWidth * window.devicePixelRatio || 1000,
       res: 1000,
     },
   };

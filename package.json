@@ -7,7 +7,7 @@
   "scripts": {
     "build": "webpack --config ./config/webpack.config.prod.js",
     "start": "webpack serve --config ./config/webpack.config.dev.js",
-    "clipboard": "webpack --config ./config/webpack.config.prod.js && pbcopy < ./dist/bundle.js"
+    "clipboard": "webpack --config ./config/webpack.config.prod.js && pbcopy < ./dist/script.js"
   },
   "devDependencies": {
     "html-webpack-plugin": "^5.4.0",

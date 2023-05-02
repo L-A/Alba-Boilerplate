@@ -5,7 +5,7 @@ module.exports = {
   ...config,
   mode: "production",
   output: {
-    path: path.resolve(__dirname, "../"),
+    path: path.resolve(__dirname, "../dist"),
     filename: "script.js",
     clean: true,
   },
